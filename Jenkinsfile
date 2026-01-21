@@ -43,7 +43,7 @@ pipeline {
             echo "✅ Flask CI/CD Pipeline Successful"
         }
         failure {
-            echo "❌ Pipeline Failed"
+            echo "Pipeline Failed"
         }
     }
 }

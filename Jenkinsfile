@@ -10,7 +10,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url:'https://github.com/tanay25/flask-jenkins-cicd.git'
+                url:'https://github.com/tanay25/flask-jenkins-cicd.git',
+                credentialsId:772485eb-ea9d-44a5-83ab-d0f3d8a70ad8
             }
         }
 

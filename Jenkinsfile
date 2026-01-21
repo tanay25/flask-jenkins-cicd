@@ -9,6 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
+                git branch: 'main',
                 git 'https://github.com/tanay25/flask-jenkins-cicd.git'
             }
         }
